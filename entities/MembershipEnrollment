@@ -1,0 +1,51 @@
+{
+  "name": "MembershipEnrollment",
+  "type": "object",
+  "properties": {
+    "patient_name": {
+      "type": "string",
+      "description": "Full name of the patient"
+    },
+    "email": {
+      "type": "string",
+      "description": "Patient email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Patient phone number"
+    },
+    "plan": {
+      "type": "string",
+      "enum": [
+        "individual",
+        "family",
+        "fee_for_service"
+      ],
+      "description": "Selected membership tier"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "active",
+        "cancelled"
+      ],
+      "default": "pending",
+      "description": "Enrollment status"
+    },
+    "enrolled_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date enrollment was submitted"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional notes from the patient"
+    }
+  },
+  "required": [
+    "patient_name",
+    "email",
+    "plan"
+  ]
+}
