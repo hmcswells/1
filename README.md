@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
 
 **Welcome to your Base44 project** 
@@ -39,3 +40,7 @@ Open [db.com](http://db.com) and click on Publish.
 Documentation: [https://docs.db.com/Integrations/Using-GitHub](https://docs.db.com/Integrations/Using-GitHub)
 
 Support: [https://app.db.com/support](https://app.db.com/support)
+=======
+# 1
+Base44 upload
+>>>>>>> 7eff347fb0bcce1a8640a1ba76c68d6e5a2ea029
