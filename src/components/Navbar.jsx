@@ -38,7 +38,7 @@ export default function Navbar() {
               style={{
                 width: '48px',
                 height: '48px',
-                backgroundImage: 'url(https://media.db.com/images/public/6a2b4700f9945e4e7da1044c/67ba9c370_logosmall.png)',
+                backgroundImage: `url(${import.meta.env.BASE_URL}images/logo-small.webp)`,
                 backgroundSize: '170%',
                 backgroundPosition: 'center top',
                 backgroundRepeat: 'no-repeat',

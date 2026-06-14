@@ -12,7 +12,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://media.db.com/images/public/6a2b4700f9945e4e7da1044c/03b594059_generated_image.png"
+          src={`${import.meta.env.BASE_URL}images/hero.webp`}
           alt="Scott Wells, FNP-C at Wells Family Medicine"
           className="w-full h-full object-cover object-center"
         />

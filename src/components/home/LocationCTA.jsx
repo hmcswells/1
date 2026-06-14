@@ -10,7 +10,7 @@ export default function LocationCTA() {
     <section className="py-24 lg:py-32 relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://media.db.com/images/public/6a2b4700f9945e4e7da1044c/46952f5b8_generated_5b7a9267.png"
+          src={`${import.meta.env.BASE_URL}images/location.webp`}
           alt="Raymond, New Hampshire landscape"
           className="w-full h-full object-cover"
         />

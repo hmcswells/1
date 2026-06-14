@@ -19,7 +19,7 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden">
               <img
-                src="https://media.db.com/images/public/6a2b4700f9945e4e7da1044c/b5a25a223_generated_8fe09fe0.png"
+                src={`${import.meta.env.BASE_URL}images/about-provider.webp`}
                 alt="Compassionate care at Wells Family Medicine"
                 className="w-full h-full object-cover"
               />
