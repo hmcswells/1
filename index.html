@@ -1,5 +1,3 @@
-const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,7 +7,11 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
     <link rel="manifest" href="/manifest.json" />
     <title>Wells Family Medicine | Direct Primary Care · Raymond, NH</title>
     <meta name="description" content="Direct Primary Care clinic at 126 NH-27, Raymond, NH. No insurance required — affordable monthly subscriptions and transparent fee-for-service pricing. Scott Wells, FNP-C." />
-    <script type="module" crossorigin src="/1/assets/index-G3PbVrVh.js"></script>
+    
+    <script>
+      const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me: async()=>null }, entities:new Proxy({}, { get:()=>({ filter:async()=>[], get:async()=>null, create:async()=>({}), update:async()=>({}), delete:async()=>({}) }) }), integrations:{ Core:{ UploadFile:async()=>({ file_url:'' }) } } };
+    </script>
+    <script type="module" crossorigin src="/1/assets/index-DRG29sOS.js"></script>
     <link rel="stylesheet" crossorigin href="/1/assets/index-7VvY5WbC.css">
   </head>
   <body>
